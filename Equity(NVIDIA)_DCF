@@ -620,12 +620,4 @@ DCFValuationEngine.create_excel_output = create_excel_output
 DCFValuationEngine.run_full_analysis = run_full_analysis
 
 
-# Execute the DCF analysis
-if __name__ == "__main__":
-    # Create DCF engine instance
-    dcf = DCFValuationEngine()
-    
-    # Run complete analysis
-    results = dcf.run_full_analysis('NVDA_DCF_Valuation.xlsx')
-    
-    print("Analysis complete! Check the Excel file for detailed results.")
+
